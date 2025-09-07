@@ -27,6 +27,8 @@
         runc
         slirp4netns
         nerdctl
+        godef
+        gomodifytags
       ] ++ nix-snapshotter.nativeBuildInputs;
     };
   };
